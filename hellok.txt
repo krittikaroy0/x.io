@@ -1,1 +1,635 @@
-hi
+
+Student@ICSPLAB21 MINGW64 ~
+$ git --version
+git version 2.42.0.windows.2
+
+Student@ICSPLAB21 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+CSE207-Lab1.c
+CSE207-Lab1.exe
+CSE207-Lab1.o
+Cisco\ Packet\ Tracer\ 5.3.2
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TM.blf
+NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+New\ folder
+OneDrive
+Pictures
+PrintHood
+PycharmProjects
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Unitled1.c
+Unitled1.exe
+Unitled1.o
+Untitle1.c
+Untitled\ 2.c
+Untitled02.c
+Untitled02.exe
+Untitled02.o
+Untitled1.c
+Untitled1.exe
+Untitled1.o
+Untitled3.c
+Untitled3.exe
+Untitled3.o
+Untitled4.c
+Untitled4.exe
+Untitled4.o
+Untitled5.c
+Untitled5.exe
+Untitled5.o
+Videos
+VirtualBox\ VMs
+hc+01.c
+hc+01.exe
+hc+01.o
+hc+02.c
+hc+02.exe
+hc+02.o
+hc+03.c
+hc+03.exe
+hc+03.o
+hc+04.c
+hc+04.exe
+hc+04.o
+naim.cpp
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+Student@ICSPLAB21 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ CSE207-Lab1.c
+ CSE207-Lab1.exe*
+ CSE207-Lab1.o
+'Cisco Packet Tracer 5.3.2'/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TM.blf
+ NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{9d8d973b-60e9-11ed-aecc-0068eb9d9e2e}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+'New folder'/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Unitled1.c
+ Unitled1.exe*
+ Unitled1.o
+ Untitle1.c
+'Untitled 2.c'
+ Untitled02.c
+ Untitled02.exe*
+ Untitled02.o
+ Untitled1.c
+ Untitled1.exe*
+ Untitled1.o
+ Untitled3.c
+ Untitled3.exe*
+ Untitled3.o
+ Untitled4.c
+ Untitled4.exe*
+ Untitled4.o
+ Untitled5.c
+ Untitled5.exe*
+ Untitled5.o
+ Videos/
+'VirtualBox VMs'/
+ hc+01.c
+ hc+01.exe*
+ hc+01.o
+ hc+02.c
+ hc+02.exe*
+ hc+02.o
+ hc+03.c
+ hc+03.exe*
+ hc+03.o
+ hc+04.c
+ hc+04.exe*
+ hc+04.o
+ naim.cpp
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Student@ICSPLAB21 MINGW64 ~
+$ cd Documents/
+
+Student@ICSPLAB21 MINGW64 ~/Documents
+$ mkdir krittika
+
+Student@ICSPLAB21 MINGW64 ~/Documents
+$ mkdir gitproject
+
+Student@ICSPLAB21 MINGW64 ~/Documents
+$ cd krittika
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika
+$ mkdir gitproject
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika
+$ cd gitproject/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject
+$ mkdir CSE412
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject
+$ ls
+CSE412/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject
+$ cd CSE412
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ pwd
+/c/Users/Student.ICSPLAB21/Documents/krittika/gitproject/CSE412
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ git clone https://github.com/krittikaroy0/CSE412.git
+Cloning into 'CSE412'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ touch x.html
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ ls
+CSE412/  x.html
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$  git checkout -b authenticationmodule
+fatal: not a git repository (or any of the parent directories): .git
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ git clone https://github.com/krittikaroy0/CSE412.git
+fatal: destination path 'CSE412' already exists and is not an empty directory.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ git clone https://github.com/krittikaroy0/x.io.git
+Cloning into 'x.io'...
+warning: You appear to have cloned an empty repository.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ ls
+CSE412/  x.html  x.io/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ cd CSE412/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/CSE412 (dev)
+$ touch x.html
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/CSE412 (dev)
+$ ls
+hello.txt  x.html
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/CSE412 (dev)
+$ cd --
+
+Student@ICSPLAB21 MINGW64 ~
+$ cd Documents/
+
+Student@ICSPLAB21 MINGW64 ~/Documents
+$ cd krittika/\
+>
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika
+$ cd kr
+bash: cd: kr: No such file or directory
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika
+$ cd gitproject/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject
+$ Cd CSE412/
+bash: Cd: command not found
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject
+$ cd CSE412/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ git clone https://github.com/krittikaroy0/x.io.git
+fatal: destination path 'x.io' already exists and is not an empty directory.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ ls
+CSE412/  x.html  x.io/
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412
+$ cd x.io
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$  touch hellok.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$ ls
+hellok.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hellok.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$ git add hellok.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (main)
+$  git checkout -b authenticationmodule
+Switched to a new branch 'authenticationmodule'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git status
+On branch authenticationmodule
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hellok.txt
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git branch
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git branch
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$  git checkout -b authenticationmodule
+Switched to a new branch 'authenticationmodule'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git status
+On branch authenticationmodule
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hellok.txt
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git status
+On branch authenticationmodule
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hellok.txt
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git branch
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git commit -m "hi"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Student@ICSPLAB21.(none)')
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git config --global user.name "krittika"
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git config --global user.email "k2001roy@gmail.com"
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git commit -m "hi"
+[authenticationmodule (root-commit) 51de0ea] hi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hellok.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git push  origin authenticationmodule
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 205 bytes | 205.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krittikaroy0/x.io.git
+ * [new branch]      authenticationmodule -> authenticationmodule
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$ git status
+On branch authenticationmodule
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (authenticationmodule)
+$  git checkout -b dev
+Switched to a new branch 'dev'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git commit -m "bye"
+On branch dev
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git push  origin dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/krittikaroy0/x.io/pull/new/dev
+remote:
+To https://github.com/krittikaroy0/x.io.git
+ * [new branch]      dev -> dev
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$  git checkout -b krittika
+Switched to a new branch 'krittika'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$  git checkout -b krittika
+fatal: a branch named 'krittika' already exists
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git commit -m "hi krittika"
+On branch krittika
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git push  origin krittika
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'krittika' on GitHub by visiting:
+remote:      https://github.com/krittikaroy0/x.io/pull/new/krittika
+remote:
+To https://github.com/krittikaroy0/x.io.git
+ * [new branch]      krittika -> krittika
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git status
+On branch krittika
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git branch
+  authenticationmodule
+  dev
+* krittika
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ touch krittika.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git add krittika.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$ git status
+On branch krittika
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   krittika.txt
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (krittika)
+$  git checkout dev
+Switched to branch 'dev'
+A       krittika.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git marge krittika
+git: 'marge' is not a git command. See 'git --help'.
+
+The most similar command is
+        merge
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git merge krittika
+Already up to date.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git commit -m "update in dev"
+[dev 94ca40e] update in dev
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 krittika.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git push  origin dev
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krittikaroy0/x.io.git
+   51de0ea..94ca40e  dev -> dev
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> dev
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git log
+commit 94ca40ea63b65a04cb14ac9414193ce9c4b1b3ee (HEAD -> dev, origin/dev)
+Author: krittika <k2001roy@gmail.com>
+Date:   Thu Nov 2 11:01:55 2023 +0600
+
+    update in dev
+
+commit 51de0ead6091715b5fdec6da0b582dc292029b50 (origin/krittika, origin/authenticationmodule, krittika, authenticationmodule)
+Author: krittika <k2001roy@gmail.com>
+Date:   Thu Nov 2 10:50:30 2023 +0600
+
+    hi
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git show cbe1249b140dad24b2c35b15cc7e26a6f02d2277
+fatal: bad object cbe1249b140dad24b2c35b15cc7e26a6f02d2277
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git stash
+No local changes to save
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$  git checkout -b roy
+Switched to a new branch 'roy'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$ git commit -m "hi krittika"
+On branch roy
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$ touch roy.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$ git merge roy
+Already up to date.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$ git push  origin roy
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'roy' on GitHub by visiting:
+remote:      https://github.com/krittikaroy0/x.io/pull/new/roy
+remote:
+To https://github.com/krittikaroy0/x.io.git
+ * [new branch]      roy -> roy
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$ git push  origin roy
+Everything up-to-date
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (roy)
+$  git checkout dev
+Switched to branch 'dev'
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git merge roy
+Already up to date.
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git commit -m "hi krittika"
+On branch dev
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        roy.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git add roy.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git commit -m "hi krittika"
+[dev 4a2241c] hi krittika
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 roy.txt
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git status
+On branch dev
+nothing to commit, working tree clean
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git branch
+  authenticationmodule
+* dev
+  krittika
+  roy
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 628 bytes | 628.00 KiB/s, done.
+From https://github.com/krittikaroy0/x.io
+   51de0ea..ababd15  authenticationmodule -> origin/authenticationmodule
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> dev
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git push  origin dev
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 267 bytes | 267.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krittikaroy0/x.io.git
+   94ca40e..4a2241c  dev -> dev
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> dev
+
+
+Student@ICSPLAB21 MINGW64 ~/Documents/krittika/gitproject/CSE412/x.io (dev)
+$
